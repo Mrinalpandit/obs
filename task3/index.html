@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+<div id="converter">
+	<label class="all-label" for="degrees">Degrees</label>
+	<input type="number" id="degrees">
+	<label class="all-label" for="type">Type</label>
+	<select id="type">
+		<option value="fahrenheit">Fahrenheit</option>
+		<option value="celsius">Celsius</option>
+		<option value="kelvin">Kelvin</option>
+	</select>
+	<button id="convert" onclick="convert()">Convert</button>
+	<label class="all-label" id="resultlabel">Result:</h2>
+		<h2 id="result"></h2>
+</div>
+<script src="./java.js"></script>
+</body>
+</html>
