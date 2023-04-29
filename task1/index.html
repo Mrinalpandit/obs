@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab4.css">
+    <title>LAB - 4</title>
+</head>
+
+<body>
+
+    <video src="video/video2.mp4" autoplay muted loop id="video">Your browser does not suppport</video>
+
+    <div class="heading">
+        <h1>Techno</h1>
+
+        <nav>
+            <ul>
+                <li><a href="LAB_Ass_4.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Industries</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </nav>
+    </div>
+
+    <div class="container">
+
+        <div class="content">
+
+            <h2>Driving Digital Growth, Led By Technology</h2>
+
+
+            <div class="column">
+                <p> Web Technology refers to the various tools and techniques
+                    that are utilized in the process of communication between
+                    different types of devices over the internet.
+
+                </p>
+            </div>
+
+            <div class="column">
+                <p> Web browsers can be defined as programs that display text, data, pictures, animation, and
+                    video on the Internet.
+                </p>
+            </div>
+
+            <div class="column">
+                <p>
+                    Hyperlinked resources on the World Wide
+                    Web can be accessed using software interfaces provided by Web browsers.
+                </p>
+            </div>
+
+
+            <button id="button" onclick="myFunction()">Pause</button>
+
+        </div>
+
+        <div class="header_2">
+            <h3>      What We Do</h3>
+
+        </div>
+
+        <div class="content_2">
+            <div class="column_1">
+                <h4>Product Engineering</h4>
+                <p> Driving value by engineering immersive
+                    and digital products that support growth and differentiation.
+                </p>
+
+                <video src="video/video3.mp4" autoplay muted loop class="small"></video>
+
+            </div>
+
+            <div class="column_1">
+                <h4>Application Development</h4>
+                <p> Delivering superior and modern web,
+                    native, cross-platform apps, and enterprise mobility solutions.
+                </p>
+
+                <video src="video/video5.mp4" autoplay muted loop class="small"></video>
+
+            </div>
+
+            <div class="column_1">
+                <h4>Innovative Lab</h4>
+                <p> Crafting sustainable and reliable innovation engines for the ambitious
+                    and fast-moving change-makers.
+
+                </p>
+                <video src="video/video4.mp4" autoplay muted loop class="small"></video>
+            </div>
+        </div>
+
+        <div class="foot">
+            <p> THANK YOU FOR VISITING !</p>
+        </div>
+    </div>
+
+    <script>
+
+        var video = document.getElementById("video");
+        var btn = document.getElementById("button");
+
+        function myFunction() {
+
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+
+            }
+            else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
