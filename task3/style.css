@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+body {
+	background-color: #899140;
+	padding: 0;
+	margin: 0;
+}
+body * {
+	font-family: "nunito", sans-serif;
+}
+#converter {
+	height: 300px;
+	width: 80vw;
+	background-color: #F9F5EB;
+	margin: auto;
+	position: relative;
+	top: 150px;
+	border-radius: 20px;
+	box-shadow: 3px 3px grey;
+}
+input {
+	height: 35px;
+	font-size: 18px;
+	width: 16vw;
+	border-radius: 8px;
+	border: 1.5px solid #aaa;
+	position: absolute;
+	padding-left: 5px;
+}
+h1 {
+	position: absolute;
+	text-align: center;
+	width: 90vw;
+	top: 40px;
+	left: 5vw;
+	color: #CDFCF6;
+}
+select {
+	height: 40px;
+	width: 16vw;
+	font-size: 15px;
+	border-radius: 8px;
+	border: 1.5px solid #aaa;
+	position: absolute;
+}
+label {
+	display: block;
+	margin: 10px 0 10px 0;
+	position: absolute;
+}
+label[for*="degrees"] {
+	top: 10px;
+	left: 4vw;
+}
+input#degrees {
+	top: 50px;
+	left: 4vw;
+}
+label[for*="type"] {
+	left: 25vw;
+	top: 10px;
+}
+select#type {
+	left: 25vw;
+	top: 50px;
+}
+button {
+	height: 40px;
+	width: 20vw;
+	position: absolute;
+	top: 50px;
+	background: #1e88e5;
+	border-radius: 5px;
+	border: none;
+	left: 50vw;
+	font-weight: bold;
+	color: white;
+}
+label#resultlabel {
+	top: 100px;
+	left: 4vw;
+}
+.all-label {
+	font-weight: bold;
+}
+#convert {
+	font-size: large;
+}
